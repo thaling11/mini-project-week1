@@ -31,9 +31,12 @@ li {
     font-size: 20px;
     display: inline;
     padding: 10px;
-    list-style-type: none;
     position: relative;
     bottom: 20px;
+    text-decoration: none;
+}
+a {
+    color: white;
 }
 
 /*focal image */
@@ -42,24 +45,23 @@ li {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+  border: 10px solid black;
 
 }
 
 /*Forms */
 form {
     text-align: center;
-}
-
-a {
-    color: white;
+    font-size: 20px;
 }
 
 #submit-button {
     background-color: lightseagreen;
     color: white;
     height: 40px;
-    width: 70px;
+    width: 80px;
     border-radius: 10px;
+    font-size: 18px;
 }
 
 /* Footer */
