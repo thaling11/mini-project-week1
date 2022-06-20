@@ -13,11 +13,13 @@ body {
 header {
     background-color: black;
     width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 h1 {
     color: lightseagreen;
-    padding: 10px;
+    padding: 2px;
     position: relative;
     top: 20px;
 }
@@ -32,7 +34,7 @@ li {
     display: inline;
     padding: 10px;
     position: relative;
-    bottom: 20px;
+    bottom: 14px;
     text-decoration: none;
 }
 a {
@@ -47,13 +49,39 @@ a {
   margin-right: auto;
   width: 30%;
   border: 10px solid black;
+  position: relative;
+  top: 120px;
 
+}
+
+/* side icons */
+.settings-icon {
+    height: 30px;
+    position: fixed;
+    top: 120px;
+    left: 10px;
+}
+
+.home-icon {
+    height: 28px;
+    position: fixed;
+    top: 170px;
+    left: 10px;
+}
+
+.magnifying-glass-icon {
+    height: 30px;
+    position: fixed;
+    top: 220px;
+    left: 10px;
 }
 
 /*Forms */
 form {
     text-align: center;
     font-size: 20px;
+    position: relative;
+    top: 130px;
 }
 
 #submit-button {
@@ -68,34 +96,10 @@ form {
 /* Footer */
 
 footer {
+    text-align: center;
+    position: relative;
+    top: 200px;
     margin: 20px;
     padding: 20px;
-    text-align: center;
 }
 
-.settings-icon {
-    height: 30px;
-    position: fixed;
-    top: 110px;
-    left: 10px;
-}
-
-.home-icon {
-    height: 28px;
-    position: fixed;
-    top: 160px;
-    left: 10px;
-}
-
-.info-icon {
-    height: 30px;
-    position: fixed;
-    top: 210px;
-    left: 10px;
-}
-.magnifying-glass-icon {
-    height: 30px;
-    position: fixed;
-    top: 210px;
-    left: 10px;
-}
