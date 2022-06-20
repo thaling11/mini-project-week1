@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Bitter', serif;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+  
+}
+h1 {
+    color: lightseagreen;
+    top: 0px;
+    padding: 10px;
+}
+
+nav {
+    display: inline;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    list-style-type: none;
+}
+
+#email-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+}
+
+form {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+#submit-button {
+    background-color: darkgreen;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
