@@ -1,3 +1,4 @@
+/*Universal*/
 * {
     margin: 0;
     padding: 0;
@@ -8,28 +9,34 @@ body {
     font-family: 'Bitter', serif;
 }
 
+/*Header: Nav Bar*/
 header {
     background-color: black;
     width: 100%;
-  
 }
+
 h1 {
     color: lightseagreen;
-    top: 0px;
     padding: 10px;
+    position: relative;
+    top: 20px;
 }
 
 nav {
-    display: inline;
     text-align: right;
+    margin: auto;
 }
 
 li {
+    font-size: 20px;
     display: inline;
     padding: 10px;
     list-style-type: none;
+    position: relative;
+    bottom: 20px;
 }
 
+/*focal image */
 #email-icon {
   display: block;
   margin-left: auto;
@@ -38,6 +45,7 @@ li {
 
 }
 
+/*Forms */
 form {
     text-align: center;
 }
@@ -47,14 +55,24 @@ a {
 }
 
 #submit-button {
-    background-color: darkgreen;
+    background-color: lightseagreen;
+    color: white;
     height: 40px;
     width: 70px;
     border-radius: 10px;
 }
 
+/* Footer */
+
 footer {
     margin: 20px;
     padding: 20px;
     text-align: center;
+}
+
+.settings-icon {
+    height: 30px;
+    position: fixed;
+    top: 110px;
+    left: 10px;
 }
